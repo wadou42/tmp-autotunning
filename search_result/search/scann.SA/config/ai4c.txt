@@ -1,0 +1,25 @@
+name=flag_tree_vrp, type=bool
+name=flag_inline_small_functions, type=bool
+name=flag_tree_tail_merge, type=bool
+name=flag_tree_slp_vectorize, type=bool
+name=flag_tree_pre, type=bool
+name=flag_tree_builtin_call_dce, type=bool
+name=flag_finite_loops, type=bool
+name=flag_optimize_sibling_calls, type=bool
+name=flag_prefetch_loop_arrays, type=bool
+name=flag_schedule_insns, type=bool
+name=flag_schedule_insns_after_reload, type=bool
+name=flag_unroll_loops, type=bool
+name=param_max_inline_insns_auto, type=int, lb=10, ub=190
+name=param_inline_unit_growth, type=int, lb=30, ub=300
+name=param_max_inline_recursive_depth_auto, type=int, lb=4, ub=8
+name=param_large_function_insns, type=int, lb=1100, ub=3100
+name=param_large_function_insns, type=int, lb=20, ub=100
+name=param_large_unit_insns, type=int, lb=6000, ub=16000
+name=param_max_unrolled_insns, type=int, lb=100, ub=2000
+name=param_max_average_unrolled_insns, type=int, lb=10, ub=800
+name=param_max_unroll_times, type=int, lb=1, ub=64
+name=param_prefetch_latency, type=int, lb=100, ub=2000
+name=param_simultaneous_prefetches, type=int, lb=1, ub=80
+name=param_min_insn_to_prefetch_ratio, type=int, lb=1, ub=30
+name=param_prefetch_min_insn_to_mem_ratio, type=int, lb=1, ub=30

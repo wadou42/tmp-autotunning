@@ -1,0 +1,38 @@
+-fno-inline-atomics
+-fno-reg-struct-return
+-fmodulo-sched -freorder-blocks-and-partition
+-fselective-scheduling2 -fvar-tracking-assignments -fwrapv
+-fselective-scheduling -ftrapv -gstatement-frontiers
+-fsel-sched-pipelining -fselective-scheduling -fvar-tracking-assignments-toggle
+-fno-early-inlining -fno-tree-forwprop
+# hongqi's constrains
+-fsingle-precision-constant
+-fpack-struct
+-fno-rtti-fno-live-patching
+-fno-stack-protector-all
+-fno-stack-protector-explicit
+-fno-stack-protector-strong
+-gstatement-fno-rontiers
+-fno-no-threadsafe-statics
+-fno-toplevel-reorder -fsection-anchors
+-flive-patching -fipa-bit-cp
+-flive-patching -fipa-cp
+-flive-patching -fipa-cp-clone
+-flive-patching -fipa-ic
+-flive-patching -fipa-icf
+-flive-patching -fipa-icf-functions
+-flive-patching -fipa-icf-variables
+-flive-patching -fipa-modref
+-flive-patching -fipa-prefetch
+-flive-patching -fipa-profile
+-flive-patching -fipa-pta
+-flive-patching -fipa-pure-const
+-flive-patching -fipa-ra
+-flive-patching -fipa-reference
+-flive-patching -fipa-reference-addressable
+-flive-patching -fipa-reorder-fields
+-flive-patching -fipa-sra
+-flive-patching -fipa-stack-alignment
+-flive-patching -fipa-strict-aliasing
+-flive-patching -fipa-struct-reorg
+-flive-patching -fipa-vrp

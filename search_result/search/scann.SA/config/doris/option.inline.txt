@@ -1,0 +1,5 @@
+-finline
+-finline-functions
+-finline-functions-called-once
+-finline-small-functions
+-ffold-simple-inlines

@@ -1,0 +1,10 @@
+-finline  -fopenmp
+-finline  -fopenmp
+-finline -fopenmp
+-finline -fopenmp
+-finline -fopenmp
+-finline -fopenmp
+-finline -fopenmp
+-finline -fopenmp
+-finline -fopenmp
+-finline -fopenmp

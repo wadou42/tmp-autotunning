@@ -1,0 +1,23 @@
+# Constraints file, if you want to force option A open, just add the negative version of option A into this file.
+-fno-toplevel-reorder -fsection-anchors
+-finline-atomics
+-fpack-struct
+-fsplit-ldp-stp -fno-ssa-backprop -fno-ssa-phiopt
+-fstack-clash-protection -fstack-protector
+-fsingle-precision-constant
+-fno-reg-struct-return
+-fno-tree-forwprop
+
+# automatically open all of the inline optimizations
+-fno-inline
+# -fno-inline-functions
+# -fno-inline-functions-called-once
+# -fno-inline-small-functions
+# -fno-fold-simple-inlines
+
+# for all 01
+-fpack-struct
+-freorder-blocks-and-partition
+-fsimdmath
+-fsingle-precision-constant
+-fipa-pta

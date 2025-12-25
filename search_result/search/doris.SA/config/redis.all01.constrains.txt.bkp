@@ -1,0 +1,54 @@
+# for all
+-fno-stack-protector-all
+-fno-stack-protector-explicit
+-fno-stack-protector-strong
+-gstatement-fno-rontiers
+-fno-no-threadsafe-statics
+-fno-toplevel-reorder -fsection-anchors
+
+# build failed
+-fno-bit-tests
+-floop-parallelize-all
+
+-fno-ipa-modref
+-fno-ipa-strict-aliasing
+-fno-harden-conditional-branches
+-fsel-sched-pipelining -fselective-scheduling2
+-fno-fold-simple-inlines
+-fno-harden-compares
+
+-fno-tree-loop-optimize -fselective-scheduling2
+-fno-tree-ch -fno-tree-loop-optimize -fselective-scheduling
+-fsel-sched-pipelining -fselective-scheduling
+-fselective-scheduling -fselective-scheduling2 -funsafe-math-optimizations
+-fno-sched-interblock -fno-shrink-wrap -fselective-scheduling2 -ftrapv -funsafe-math-optimizations
+-floop-nest-optimize
+-fipa-strict-aliasing
+-fipa-modref
+-fno-move-loop-stores
+-fmove-loop-stores
+-fharden-conditional-branches
+-fharden-compares
+-fgraphite
+-fgraphite-identity
+-ffold-simple-inlines
+-fbit-tests
+-fno-tree-fre -fselective-scheduling -gstatement-frontiers
+-ffloat-store -fno-schedule-insns -fno-tree-dce -fno-tree-dominator-opts -fno-tree-fre -fno-tree-pre -fselective-scheduling2
+-fmodulo-sched -fno-inline-functions -fno-tree-copy-prop -fno-tree-dce -fno-tree-forwprop -fno-tree-fre -freorder-blocks-and-partition
+-fmodulo-sched -fno-inline-small-functions -fno-tree-copy-prop -fno-tree-forwprop -fno-tree-fre -freorder-blocks-and-partition
+-fno-gcse -fselective-scheduling2 -funsafe-math-optimizations
+-fno-tree-ch -fselective-scheduling2 -gstatement-frontiers
+-fno-toplevel-reorder -fno-tree-dominator-opts -fno-tree-forwprop -fselective-scheduling2 -ftracer -gstatement-frontiers
+-fno-guess-branch-probability -fno-inline-small-functions -fselective-scheduling2 -ftrapv -funsafe-math-optimizations
+-fno-if-conversion -fselective-scheduling -gstatement-frontiers
+-fno-guess-branch-probability -fno-if-conversion -fno-if-conversion2 -fselective-scheduling2 -gstatement-frontiers
+-fno-tree-pre -fselective-scheduling2 -fvar-tracking-assignments-toggle
+-fno-inline
+# 2025.07.07 new constrains
+-fpack-struct
+-fselective-scheduling2 -fvar-tracking-assignments
+-fselective-scheduling -fselective-scheduling2 -ffast-math
+-fno-sched-interblock -fselective-scheduling2 -fno-shrink-wrap-separate -fno-trapping-math -ftrapv
+-fno-sched-interblock -fno-schedule-insns -fselective-scheduling2 -fno-shrink-wrap-separate -ftrapv
+-fselective-scheduling -funroll-loops -fvar-tracking-assignments

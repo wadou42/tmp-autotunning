@@ -1,0 +1,26 @@
+-ftree-parallelize-loops=128
+-ftree-parallelize-loops=32
+-ftree-parallelize-loops=160
+-fexcess-precision=16
+-fvect-cost-model=very-cheap
+-fmove-loop-stores
+-fno-move-loop-stores
+-fsection-anchors -fno-toplevel-reorder
+-fsimd-cost-model=very-cheap
+-fselective-scheduling2 -fno-tree-ch -fp-model=fast
+-fno-ipa-modref
+-floop-parallelize-all
+-floop-nest-optimize
+-fipa-modref
+-fno-harden-conditional-branches
+-fharden-conditional-branches
+-fno-harden-compares
+-fharden-compares
+-ftree-parallelize-loops=16
+-fgraphite-identity
+-ffold-simple-inlines
+-fgraphite
+-fno-fold-simple-inlines
+-ftree-parallelize-loops=64
+-fno-if-conversion -fselective-scheduling2 -ftrapv -fira-algorithm=priority
+-fno-expensive-optimizations -fno-inline-small-functions -fmodulo-sched -freorder-blocks-and-partition -ftracer -fno-tree-coalesce-vars

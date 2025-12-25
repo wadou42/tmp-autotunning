@@ -1,0 +1,23 @@
+# for all
+-fno-stack-protector-all
+-fno-stack-protector-explicit
+-fno-stack-protector-strong
+-gstatement-fno-rontiers
+-fno-no-threadsafe-statics
+-fno-toplevel-reorder -fsection-anchors
+
+-fno-fold-simple-inlines
+-ffold-simple-inlines
+-fexcess-precision=16
+-fvect-cost-model=very-cheap
+-fp-model=fast
+-fsimd-cost-model=very-cheap
+
+-fexcess-precision=standard
+-fsingle-precision-constant
+-floop-nest-optimize
+-freorder-blocks-and-partition
+-floop-parallelize-all
+-fgraphite-identity
+-ffast-math
+-fno-inline-small-functions -fselective-scheduling -fselective-scheduling2 -fno-strict-aliasing -funroll-all-loops

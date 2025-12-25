@@ -1,0 +1,4 @@
+name=flag_inline_small_functions, type=bool
+name=param_max_inline_insns_auto, type=int, lb=10, ub=190
+name=param_inline_unit_growth, type=int, lb=30, ub=300
+name=param_max_inline_recursive_depth_auto, type=int, lb=4, ub=8

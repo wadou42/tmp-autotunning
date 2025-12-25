@@ -1,0 +1,26 @@
+{"name": "max-inline-insns-auto", "default": 15, "min": 10, "max": 300}
+{"name": "inline-unit-growth", "default": 40, "min": 40, "max": 400}
+{"name": "max-inline-recursive-depth-auto", "default": 8, "min": 4, "max": 32}
+{"name": "large-function-insns", "default": 2700, "min": 1000, "max": 10000}
+{"name": "large-function-growth", "default": 100, "min": 100, "max": 1000}
+{"name": "large-unit-insns", "default": 10000, "min": 6000, "max": 50000}
+{"name": "ipa-cp-eval-threshold", "default": 500, "min": 50, "max": 5000}
+{"name": "ipa-cp-loop-hint-bonus", "default": 64, "min": 50, "max": 500}
+{"name": "ipa-cp-max-recursive-depth", "default": 8, "min": 8, "max": 32}
+{"name": "ipa-cp-min-recursive-probability", "default": 2, "min": 1, "max": 8}
+# {"name": "ipa-cp-recursive-freq-factor", "default": 6, "min": 2, "max": 20}
+{"name": "ipa-cp-recursion-penalty", "default": 40, "min": 1, "max": 100}
+{"name": "ipa-cp-single-call-penalty", "default": 15, "min": 1, "max": 100}
+{"name": "ipa-cp-unit-growth", "default": 10, "min": 10, "max": 100}
+# {"name": "ipa-cp-large-unit-insns", "default": 16000, "min": 8000, "max": 64000}
+{"name": "ipa-cp-value-list-size", "default": 8, "min": 2, "max": 16}
+# {"name": "ipa-cp-profile-count-base", "default": 10, "min": 1, "max": 100}
+{"name": "builtin-string-cmp-inline-length", "default": 3, "min": 1, "max": 100}
+{"name": "max-unroll-times", "default": 8, "min": 8, "max": 512}
+{"name": "max-unrolled-insns", "default": 200, "min": 200, "max": 5000}
+{"name": "max-unswitch-insns", "default": 50, "min": 50, "max": 5000}
+{"name": "max-average-unrolled-insns", "default": 80, "min": 80, "max": 800}
+{"name": "max-completely-peel-loop-nest-depth", "default": 8, "min": 8, "max": 80}
+{"name": "max-completely-peel-times", "default": 16, "min": 16, "max": 128}
+{"name": "max-completely-peeled-insns", "default": 200, "min": 200, "max": 2000}
+{"name": "unroll-jam-max-unroll", "default": 4, "min": 4, "max": 40}

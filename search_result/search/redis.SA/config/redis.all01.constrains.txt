@@ -1,0 +1,40 @@
+-ftree-parallelize-loops=128
+-ftree-parallelize-loops=32
+-ftree-parallelize-loops=160
+-fexcess-precision=16
+-fvect-cost-model=very-cheap
+-fmove-loop-stores
+-fno-move-loop-stores
+-fsection-anchors -fno-toplevel-reorder
+-fsimd-cost-model=very-cheap
+-fselective-scheduling2 -fno-tree-ch -fp-model=fast
+-fno-ipa-modref
+-floop-parallelize-all
+-floop-nest-optimize
+-fipa-modref
+-fno-harden-conditional-branches
+-fharden-conditional-branches
+-fno-harden-compares
+-fharden-compares
+-ftree-parallelize-loops=16
+-fgraphite-identity
+-ffold-simple-inlines
+-fgraphite
+-fno-fold-simple-inlines
+-ftree-parallelize-loops=64
+-fno-if-conversion -fselective-scheduling2 -ftrapv -fira-algorithm=priority
+-fno-expensive-optimizations -fno-inline-small-functions -fmodulo-sched -freorder-blocks-and-partition -ftracer -fno-tree-coalesce-vars
+-fselective-scheduling2 -fno-tree-ch -funsafe-math-optimizations
+
+
+-falign-functions=32 -falign-jumps=4 -falign-loops=16 -fp-model=except -freorder-blocks-algorithm=stc
+-falign-jumps=8 -ffp-contract=on -fira-algorithm=CB
+-fsimd-cost-model=unlimited -fstack-reuse=named_vars
+-fexcess-precision=fast -ffp-contract=on
+-ffp-contract=fast
+-fsched-stalled-insns-dep=4 -fsched-stalled-insns=16  -fvect-cost-model=cheap
+-freorder-blocks-algorithm=stc -fsched-stalled-insns-dep=16 -fsched-stalled-insns=8  -fstack-reuse=none  -fvect-cost-model=unlimited
+-falign-loops=8  -fexcess-precision=standard  -fira-algorithm=priority -fira-region=mixed -freorder-blocks-algorithm=simple -fsched-stalled-insns-dep=4 -fsched-stalled-insns=12  -fstack-reuse=named_vars
+-fp-model=normal -freorder-blocks-algorithm=simple -fsched-stalled-insns-dep=8 -fsched-stalled-insns=8 -fsimd-cost-model=dynamic -fstack-reuse=none
+-falign-functions=16 -falign-jumps=4 -falign-loops=16 -fexcess-precision=fast -ffp-contract=off -fira-algorithm=CB -fp-model=except -freorder-blocks-algorithm=simple -fsched-stalled-insns-dep=4 -fsched-stalled-insns=16 -fsimd-cost-model=unlimited
+-falign-functions=16 -falign-jumps=4 -fexcess-precision=fast  -ffp-contract=off -fira-region=all -fsimd-cost-model=dynamic
